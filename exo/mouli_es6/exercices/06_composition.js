@@ -1,46 +1,52 @@
 /**
  * utiliser l'opérateur de composition ... afin de fusionner 2 tableaux passés en paramètres
- * 
+ *
  * ex: [1, 2, 3], [4, 5, 6] => [1, 2, 3, 4, 5, 6]
- * 
- * contrainte: 
+ *
+ * contraintes:
  *  - ne pas utiliser la méthode concat, map, merge, push
  *  - for, foreach, while, do while sont interdits
  */
 
-const concat 
+// spread operator
+const concat = (arr1, arr2) => [...arr1, ...arr2];
 
 /**
  * utiliser l'opérateur de composition ... afin d'ajouter un élément à un tableau
- * 
+ *
  * ex: [1, 2, 3], 4 => [1, 2, 3, 4]
- * 
+ *
  * contrainte:
  * - ne pas utiliser la méthode push
  */
 
-const push 
+const push = (arr, e) => [...arr, e];
+
 /**
  * utiliser l'opérateur de composition ... afin de fusionner 2 objets passés en paramètres
- * 
+ *
  * ex: {a: 1, b: 2}, {c: 3, d: 4} => {a: 1, b: 2, c: 3, d: 4}
  */
 
-const merge
+const merge = (o1, o2) => ({...o1, ...o2});
+
 /**
  * utiliser l'opérateur de composition ... afin de modifier la propriété name de l'objet
- * 
+ *
  * ex: {name: 'toto'}, 'titi' => {name: 'titi'}
- * 
+ *
  * contrainte:
  *  - interdiction d'utiliser l'opérateur d'affectation "="
  */
 
-const setName 
-// const setName = (obj, name) => ( { ...obj, name : name } )
-/** 
 const setName = (obj, name) => {
-  return { ...obj, name } 
+  return {...obj, name: name};
+};
+// const setName = (obj, name) => ( { ...obj, name : name } )
+
+/**
+const setName = (obj, name) => {
+  return { ...obj, name }
 }
  */
 
