@@ -22,7 +22,7 @@ const urls = [
   "https://jsonplaceholder.typicode.com/todos/3"
 ]
 
-const parallel
+const parallel 
 
 
 module.exports = { parallel };

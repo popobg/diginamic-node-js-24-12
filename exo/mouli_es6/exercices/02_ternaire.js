@@ -5,6 +5,6 @@
  * Contraintes:
  *    - utiliser l'opérateur ternaire (if interdit)
  */
-function ternaire(){} 
+function ternaire
 
 module.exports = ternaire;

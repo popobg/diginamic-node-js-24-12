@@ -24,7 +24,6 @@ const usingThen
  */
 
 const usingAwait
-
 /**
  * Créez une fonction asynchrone qui effectue un appel api vers l'url passé en paramètre
  * retourne le résultat de la requête (data)
@@ -40,6 +39,6 @@ const usingAwait
 //décommentez la ligne suivante une fois le package installé
 const axios = require("axios");
 
-const apiResponse 
+const apiResponse
 
 module.exports = {usingThen, usingAwait, apiResponse};

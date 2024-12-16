@@ -8,7 +8,7 @@
  *  - for, foreach, while, do while sont interdits
  */
 
-const concat
+const concat 
 
 /**
  * utiliser l'opérateur de composition ... afin d'ajouter un élément à un tableau
@@ -19,7 +19,7 @@ const concat
  * - ne pas utiliser la méthode push
  */
 
-const push
+const push 
 /**
  * utiliser l'opérateur de composition ... afin de fusionner 2 objets passés en paramètres
  * 
@@ -36,7 +36,7 @@ const merge
  *  - interdiction d'utiliser l'opérateur d'affectation "="
  */
 
-const setName
+const setName 
 // const setName = (obj, name) => ( { ...obj, name : name } )
 /** 
 const setName = (obj, name) => {

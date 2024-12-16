@@ -5,7 +5,7 @@
  * utilisez new Promise
  */
 
-const sleep
+const sleep 
   
 
 module.exports = {sleep};

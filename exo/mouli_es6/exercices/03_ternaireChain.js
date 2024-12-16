@@ -9,7 +9,6 @@
  *    - utiliser l'opérateur ternaire (if interdit)
  */
 
-function ternaryChain() {}
-
+function ternaryChain
 
 module.exports = ternaryChain;

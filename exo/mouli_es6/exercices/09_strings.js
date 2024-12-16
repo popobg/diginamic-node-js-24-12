@@ -10,5 +10,6 @@
  *  - ne pas utiliser la fonction concat de String
  */
 
-const concat
+const concat 
+
 module.exports = {concat};
